@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <title>Cemeteries</title>
+                <geoform>vector digital data</geoform>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>This dataset represents cemeteries throughout Utah.</abstract>
+            <purpose>To provide locations as well as information about cemeteries throughout Utah.</purpose>
+        </descript>
+        <spdom>
+            <bounding>
+                <westbc>-114.181950</westbc>
+                <eastbc>-108.957837</eastbc>
+                <northbc>42.029413</northbc>
+                <southbc>36.992144</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Society</themekey>
+                <themekey>SGID</themekey>
+                <themekey>AGRC</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>None</useconst>
+        <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.1.7333</native>
+    </idinfo>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>Entity point</sdtstype>
+                <ptvctcnt>0</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>Cemeteries</enttypl>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Cemetery</attrlabl>
+                <attrdef>Name of cemetery.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>City</attrlabl>
+                <attrdef>The municipality the cemetery is in or near.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>County</attrlabl>
+                <attrdef>County the cemetery is in.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Number_of_Burials_</attrlabl>
+                <attrdef>Number of burials in cemetery at the time of publication of dataset.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Address</attrlabl>
+                <attrdef>Coordinate address of cemetery.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Location_Directions</attrlabl>
+                <attrdef>Additional locational information and/or directions to cemetery location.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Contact</attrlabl>
+                <attrdef>Person to contact about cemetery.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Owner</attrlabl>
+                <attrdef>Owner of cemetery.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Phone</attrlabl>
+                <attrdef>Phone number of contact.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Year_Established_First_Burial</attrlabl>
+                <attrdef>Either the year the cemetery was established or the year of the first known burial.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Status</attrlabl>
+                <attrdef>L indicates that the cemetery was located during the geocoding process.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                        
+                
+                </attrdomv>
+            </attr>
+        </detailed>
+    </eainfo>
+    <distinfo>
+        <distliab>See access and use constraints information.</distliab>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>Feature Class</formname>
+                </digtinfo>
+                <digtopt/>
+            </digform>
+        </stdorder>
+    </distinfo>
+    <metainfo>
+        <metd>20191023</metd>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
