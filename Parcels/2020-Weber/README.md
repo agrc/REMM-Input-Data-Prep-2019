@@ -1,2 +1,1 @@
-# REMM-Input-Data-Prep-2019
-REMM-Input-Data-Parcel-Prep-2019
+[Link to Pseudocode Doc](https://docs.google.com/document/d/1X6rbuFekzsZGzpZsLtsW3yudCh7emHNQz-kmNEOkWsI/edit?usp=sharing)
