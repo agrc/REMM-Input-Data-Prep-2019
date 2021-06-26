@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <pubdate>20120312</pubdate>
+                <title>SGID.CADASTRE.Parcels_Davis</title>
+                <geoform>vector digital data</geoform>
+                <othercit>very variable update</othercit>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Update information can be found within the layer’s attributes and in a table on the Utah Parcel Data webpage under Basic Parcels."Database containing parcel boundary, parcel identifier, parcel address, owner type, and county recorder contact information" - HB113. The intent of the bill was to not include any attributes that the counties rely on for data sales. If you want other attributes associated with the parcels you need to contact the county recorder.Users should be aware the owner type field 'OWN_TYPE' in the parcel polygons is a very generalized ownership type (Federal, Private, State, Tribal). It is populated with the value of the 'OWNER' field where the parcel's centroid intersects the CADASTRE.LandOwnership polygon layer.This dataset is a snapshot in time and may not be the most current. For the most current data contact the county recorder.</abstract>
+            <purpose>GIS mapping data representing parcel boundaries.</purpose>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <sngdate>
+                    <caldate>20120312</caldate>
+                </sngdate>
+            </timeinfo>
+            <current>essentially the publication date</current>
+        </timeperd>
+        <status>
+            <progress>In work</progress>
+            <update>Irregular</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-112.179371</westbc>
+                <eastbc>-111.775369</eastbc>
+                <northbc>41.161204</northbc>
+                <southbc>40.817433</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>Land use</themekt>
+                <themekey>parcels</themekey>
+                <themekey>Boundaries</themekey>
+            </theme>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>boundaries</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>The data herein, including but not limited to geographic data, tabular data, analytical data, electronic data structures or files, are provided "as is" without warranty of any kind, either expressed or implied, or statutory, including, but not limited to, the implied warranties or merchantability and fitness for a particular purpose. The entire risk as to the quality and performance of the data is assumed by the user.This work is licensed under a Creative Commons Attribution 4.0 International License.</useconst>
+        <secinfo>
+            <secclass>Unclassified</secclass>
+        </secinfo>
+        <native>Esri ArcGIS 12.5.1.22081</native>
+    </idinfo>
+    <dataqual>
+        <logic>This data is as is......The data represents information taken from legal descriptions, it is a work in progress</logic>
+        <complete>May or may not be complete</complete>
+        <lineage>
+            <srcinfo>
+                <srcscale>24000</srcscale>
+                <typesrc>None</typesrc>
+                <srccontr>This data ranges to survey data to rough digitizing</srccontr>
+            </srcinfo>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>GT-polygon composed of chains</sdtstype>
+                <ptvctcnt>120112</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>Parcels_Davis</enttypl>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>PARCEL_ID</attrlabl>
+                <attrdef>This is commonly the serial # of the parcel</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>PARCEL_ADD</attrlabl>
+                <attrdef>This is the street address of the parcel</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>PARCEL_CITY</attrlabl>
+                <attrdef>The city the parcel is located in</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>OWN_TYPE</attrlabl>
+                <attrdef>This would be Residential, Commericial etc</attrdef>
+                <attrvai>
+                                        
+                    
+                    <attrvae>This field is populated through a spatial join with the 'LandOwnership' layer in the SGID.</attrvae>
+                                        
+                
+                </attrvai>
+            </attr>
+            <attr>
+                <attrlabl>RECORDER</attrlabl>
+                <attrdef>The name and number of the county recorder</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>PARCEL_ZIP</attrlabl>
+                <attrdef>Zip code of the parcel</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ParcelsCur</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>ParcelsRec</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>ParcelsPub</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>ParcelYear</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>ParcelNotes</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>CoParcel_URL</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>FIPS</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Shape.STArea()</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Shape.STLength()</attrlabl>
+            </attr>
+        </detailed>
+    </eainfo>
+    <metainfo>
+        <metd>20200722</metd>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>

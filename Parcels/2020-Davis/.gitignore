@@ -1,0 +1,7 @@
+# Folders
+Inputs/AddressPoints.gdb/
+Inputs/Davis_County_Parcels_LIR.gdb/
+Outputs/davis.gdb/
+Outputs/scratch.gdb/
+.ipynb_checkpoints/
+.backups/
