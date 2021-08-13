@@ -1,6 +1,9 @@
 # Folders
-Outputs/weber.gdb/
-Outputs/weber2.gdb/
-Outputs/weber3.gdb/
+Outputs/classes.gdb/
+Outputs/classes_HUI.gdb/
+Outputs/final.gdb/
+Outputs/scratch.gdb/
+Outputs/scratch_HUI.gdb/
+Outputs/weber_parcels.csv
 .ipynb_checkpoints/
 .backups/

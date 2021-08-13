@@ -3,7 +3,9 @@ Inputs/AddressPoints.gdb/
 Inputs/Davis_County_Parcels_LIR.gdb/
 Outputs/classes.gdb/
 Outputs/scratch.gdb/
+Outputs/classes_HUI.gdb/
 Outputs/final.gdb/
+Outputs/scratch_HUI.gdb/
 Outputs/davis_parcels.csv
 .ipynb_checkpoints/
 .backups/

@@ -1,10 +1,11 @@
 # Folders
 Inputs/AddressPoints.gdb/
 Inputs/Utah_Salt_Lake_County_Parcels_LIR.gdb/
-Outputs/saltlake.gdb/
-Outputs/saltlake2.gdb/
-Outputs/saltlake3.gdb/
-Outputs/saltlake4.gdb/
+Outputs/classes.gdb/
+Outputs/classes_HUI.gdb/
 Outputs/scratch.gdb/
+Outputs/scratch_HUI.gdb/
+Outputs/final.gdb/
+Outputs/salt_lake_parcels.csv
 .ipynb_checkpoints/
 .backups/
